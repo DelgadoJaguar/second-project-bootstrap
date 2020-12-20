@@ -323,7 +323,7 @@ textarea{
         padding: 5px 0;
     }
     .hero .row > div:nth-child(1) {
-        padding: 100px;
+        padding: 160px;
         position: relative;
         left: 0;
     }
@@ -371,7 +371,7 @@ textarea{
     }
 
     .hero:nth-child(3) .row > div:nth-child(1) {
-        padding: 140px;
+        padding: 100;
         position: relative;
         left: 0;
     }
@@ -379,8 +379,6 @@ textarea{
     .products .inner-wrapper .image img {
         width: 400px;
     }
-
-    
 }
 
 @media (max-width: 768px){
@@ -411,6 +409,17 @@ textarea{
         text-align: center;
         margin-left: 200px;
     }
+
+    .hero:nth-child(3) .row > div:nth-child(1) {
+        padding: 100;
+        position: relative;
+        left: 0;
+    }
+    .hero .row > div:nth-child(1) {
+        padding: 100px;
+        position: relative;
+        left: 0;
+    }
     
 }
 
@@ -440,6 +449,29 @@ textarea{
 
     .middle-wrapper {
         padding: 0;
+    }
+
+    .hero:nth-child(3) .row > div:nth-child(1) {
+        padding: 0;
+    }
+
+    .hero .row > div:nth-child(2) {
+        padding: 50px 30px;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .products .inner-wrapper .image img {
+        width: 350px;
+    }
+    .hero-product .text-product {
+        padding: 0px 30px;
+    }
+
+    .products .inner-wrapper .text {
+        padding: 20px 15px;
     }
 }
 
